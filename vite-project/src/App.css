@@ -1,0 +1,91 @@
+*{
+  margin:5px;
+}
+body{
+  background-color: black;
+} 
+.movie-app{
+
+  display: flex; 
+  flex-direction: row;
+} 
+
+
+movie-app img {
+  padding: 0;
+  margin: 0;
+   } 
+   .moviesHeading{
+    color: azure;
+  margin:10px; 
+  } 
+  img{
+   height: 50%;
+  z-index: 0;
+  } 
+  .toppart{
+    display: flex; 
+    flex-direction:row;
+    justify-content: space-between; 
+    align-items: center;
+  } 
+ img:hover{
+  cursor: pointer; 
+  height: 70%;
+z-index: 1; 
+} 
+
+
+ input{
+  border-radius:6px;
+  margin: 2px;
+
+} 
+ button{
+  border-radius: 4px;
+ } 
+
+ .movierow{
+  display: flex; 
+  justify-content: space-evenly;
+  gap: 10px;
+  flex-wrap: wrap;
+ flex-direction: row;
+  padding: 2px;
+  flex-grow: 1;
+  flex-wrap: nowrap;
+} 
+.movieimage{
+  margin: 0px;
+display: inline-block;
+width:10%;
+} 
+
+.movieimage:hover {
+  z-index: 1;
+} 
+.favorites{
+  color: aliceblue;
+display:none ;
+} 
+.movieimage:hover .favorites{
+  display: block;
+
+} 
+.favorites:hover{
+  cursor:pointer;
+}
+.myfavorites h2{
+  position: absolute; 
+  top:70%; 
+  left: 50%; 
+color: aliceblue;
+} 
+.favoriteimage{
+  position: absolute; 
+  top:80%; 
+  left:0%;
+display: flex; 
+flex-wrap: wrap;
+margin:3px;
+}
